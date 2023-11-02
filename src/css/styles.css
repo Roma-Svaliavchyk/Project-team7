@@ -1,10 +1,6 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
 @import url('./reset.css');
+
+@import url('./global.css');
 
 @import url('./header.css');
 
@@ -23,6 +19,7 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
+  font-style: italic;
 
   color: #242424;
   background-color: rgba(255, 255, 255, 0.87);
@@ -33,3 +30,4 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
