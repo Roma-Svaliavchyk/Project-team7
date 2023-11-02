@@ -1,10 +1,15 @@
 .our-mentors {
     background-color: #121212;
+    padding-bottom: 80px;
 }
 
 .container.mentors-container {
     padding: 0 75px;
     background-color: #121212;
+}
+
+.mentors-img {
+    border-radius: 50%;
 }
 
 .mentors-title {
@@ -15,7 +20,6 @@
     line-height: 1.14;
     letter-spacing: -0.07em;
     margin-bottom: 40px;
-    text-align: left;
 }
 
 .mentors-title-part {
@@ -31,7 +35,14 @@
 
 .mentors-item {}
 
-.mentors-item-wrap {}
+.mentors-item:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.mentors-item-wrap {
+    padding-top: 16px;
+    text-align: center;
+}
 
 .mentors-item-title {
     color: #FFF;
@@ -39,6 +50,7 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
+    margin-bottom: 4px;
 }
 
 .mentors-item-text {
