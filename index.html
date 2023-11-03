@@ -14,7 +14,7 @@
     
     
     <script type="module" crossorigin src="/Project-team7/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Project-team7/assets/index-f654cff4.css">
+    <link rel="stylesheet" href="/Project-team7/assets/index-1c2d7987.css">
   </head>
   <body>
     <!-- header -->
@@ -228,8 +228,10 @@
             <div>
                 <form class="sing-up-form" name="sing_up_form" autocomplete="off">
 
-                    <input class="sing-up-form-input" type="text" name="user-name" placeholder="Enter your name">
-                    <input class="sing-up-form-input" type="email" name="user-email" placeholder="Enter your email">
+                    <input class="sing-up-form-input" type="text" name="user-name" placeholder="Enter your name"
+                        pattern="[A-Za-z]{15}">
+                    <input class="sing-up-form-input" type="email" name="user-email" placeholder="Enter your email"
+                        pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
                     <textarea class="sing-up-form-input" name="user-comment" cols="30" rows="10"
                         placeholder="Message"></textarea>
 
@@ -246,11 +248,13 @@
             </div>
         </div>
         <div class="sign-up-img">
-            <ul>
-                <li><img srcset="/Project-team7/assets/isabella-mendes-unsplash-8203845b.png 1x, /Project-team7/assets/isabella-mendes-unsplash@2x-134ed175.png 2x"
+            <ul class="sign-up-img-list">
+                <li class="sign-up-img-li-isabella"><img class="sign-up-img-isabella"
+                        srcset="/Project-team7/assets/isabella-mendes-unsplash-8203845b.png 1x, /Project-team7/assets/isabella-mendes-unsplash@2x-134ed175.png 2x"
                         src="/Project-team7/assets/isabella-mendes-unsplash-8203845b.png" alt="isabella mendes unsplash" width="150">
                 </li>
-                <li><img srcset="/Project-team7/assets/video-entry-product-b658658a.png 1x, /Project-team7/assets/video-entry-product@2x-c65e96ce.png 2x"
+                <li class="sign-up-img-li-video"><img class="sign-up-img-video"
+                        srcset="/Project-team7/assets/video-entry-product-b658658a.png 1x, /Project-team7/assets/video-entry-product@2x-c65e96ce.png 2x"
                         src="/Project-team7/assets/video-entry-product-b658658a.png" alt="video entry product" width="240"></li>
             </ul>
         </div>
