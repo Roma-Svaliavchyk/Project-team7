@@ -1,4 +1,27 @@
-.advertisement{
-    background-color: aqua;
+.advertisement {
+    padding: 80px 0;
+    width: 1500px;
+    margin-left: -106px;
+}
 
+.advertisement-container{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    stroke-width: 1px;
+    stroke: rgba(255, 255, 255, 0.20);
+}
+.advertisement-p {
+    color: #BEA69E;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.14; 
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.advertisement-span {
+    color: #FFF;
 }
