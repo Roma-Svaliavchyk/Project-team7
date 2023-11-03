@@ -1,14 +1,15 @@
 .advertisement {
-    padding: 80px 0;
-    width: 1500px;
+    padding: 80px 0; 
 }
 
 .advertisement-container {
     margin: 0 auto;
-    width: 768px;
+    max-width: 100%;
     overflow: hidden;
     stroke-width: 1px;
-    stroke: rgba(255, 255, 255, 0.20);
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    
+    /*stroke: rgba(255, 255, 255, 0.20);*/
 }
 
 .anim-box {
@@ -47,5 +48,35 @@
 
     100% {
         transform: translate(-52.5%, 0%);
+    }
+}
+
+/*advertisement Tablet */
+@media screen and (min-width: 768px) {
+    .anim-box {
+        gap: 200px;
+    }
+
+    .advertisement-container {
+        
+    }
+    .advertisement-p {
+        font-size: 40px;
+        line-height: 1.25;
+    }
+ }
+
+/*advertisement Laptop */
+@media screen and (min-width: 1280px) {
+    .anim-box {
+        gap: 200px;
+    }
+
+    .advertisement-container {
+        
+    } 
+    .advertisement-p {
+        font-size: 59px;
+        line-height: 1.08;
     }
 }
