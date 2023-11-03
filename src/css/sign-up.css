@@ -1,8 +1,7 @@
 .sign-up {
 }
 .sing-up-container {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 80px;
 }
 .sing-up-form-contact {
   width: 335px;
@@ -78,6 +77,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .sing-up-container {
+    padding-top: 100px;
+  }
   .sing-up-form-contact {
     width: 480px;
   }
@@ -98,10 +100,10 @@
 
 @media screen and (min-width: 1280px) {
   .sing-up-container {
-    display: flex;
+    display: inline-flex;
+    align-items: flex-start;
     gap: 60px;
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-top: 150px;
   }
   .sign-up-img-list {
     display: flex;
@@ -116,11 +118,13 @@
     height: 288px;
     border-radius: 1000px;
     background: #bea69e;
+    overflow: hidden;
   }
   .sign-up-img-isabella {
-    display: flex;
-    width: 100%;
-    padding: 76px 19px 62px 19px;
+    max-width: none;
+    width: 200px;
+    padding-top: 67px;
+    margin-left: -35px;
   }
   .sign-up-img-li-video {
     width: 340px;
