@@ -14,7 +14,7 @@
     
     
     <script type="module" crossorigin src="/Project-team7/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Project-team7/assets/index-86d00e09.css">
+    <link rel="stylesheet" href="/Project-team7/assets/index-ab43cac3.css">
   </head>
   <body>
     <!-- header -->
@@ -57,12 +57,21 @@
         <h2 class="about-us-title"><span class="about-us-title-span">About</span> Us</h2>
         <div class="about-us-div">
             <div class="about-us-div-image">
-                <img 
-                srcset="/Project-team7/assets/About_us_img_mob_1x-3855dad8.jpg 1x, /Project-team7/assets/About_us_img_mob_2x-8f4d040f.jpg 2x"
-                src="/Project-team7/assets/About_us_img_mob_1x-3855dad8.jpg" 
-                class="about-us-image"
-                alt="Photo camera"
-                />
+                <picture class="about-us-image">
+                    <source
+                        srcset="/Project-team7/assets/About_us_img_1x-a3b009d5.jpg 1x, /Project-team7/assets/About_us_img_2x-df94d982.jpg 2x"
+                        media="(min-width: 770px)">
+                    <source
+                        srcset="/Project-team7/assets/About_us_img_tab_1x-22c56433.jpg 1x, /Project-team7/assets/About_us_img_tab_2x-58a88eb5.jpg 2x"
+                        media="(min-width: 375px)">
+                    <source
+                        srcset="/Project-team7/assets/About_us_img_mob_1x-3855dad8.jpg 1x, /Project-team7/assets/About_us_img_mob_2x-8f4d040f.jpg 2x"
+                        media="(min-width: 0px)">
+                    <img src="/Project-team7/assets/About_us_img_1x-a3b009d5.jpg" class="about-us-image"
+                        alt="Photo camera"
+                        >
+                </picture>
+
             </div>
             <div class="about-us-text">
                 <p class="about-us-text-one">Our photography school is designed to teach you everything you need to know about this magical art. 
