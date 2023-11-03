@@ -1,3 +1,93 @@
 .hero{
-    background-color: brown;
+    display: flex;
+    background-color: #1D1D1D;
+    border-radius: 30px;
+    width: 1240px;
+    height: 600px;
+    flex-shrink: 0;
+    /* Center the section horizontally */
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.hero-container {
+    
+}
+
+.hero-title-origin {
+    color: #FFF;
+    font-family: "DM Sans" , sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 68px;
+    letter-spacing: -2.56px;
+    width: 563px;
+}
+
+.hero-title-different {
+    color: #BEA69E;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.hero-info-text {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.28px;
+}
+
+.hero-other-block {
+    display: flex;
+    align-items: baseline;
+}
+.hero-students-img {
+}
+.hero-students-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.64px;
+}
+.hero-arrow-link {
+}
+.hero-arrow-icon {
+}
+
+.hero-star-block{
+    height: 50px;
+    width: 50px;
+}
+
+.hero-star-link {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-color: #BEA69E;
+}
+.hero-star-icon {
+}
+
+.hero-revievs {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.64px;
+    width: 57px;
+}
+.hero-number-revievs {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.64px;
+    width: 57px;
+}
+
+.hero-photographer {
+
 }
