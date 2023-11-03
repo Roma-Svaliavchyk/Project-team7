@@ -1,14 +1,79 @@
+.header {
+  background-color: #121212;
+}
+
+.header-wrap {
+  padding-top: 20px;
+}
+
+.header-menu-wrap {}
+
 .header-navigation {
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.20);
   background-color: #121212;
+  padding: 14px 20px;
 }
 
+.header-logo {
+  color: white;
+}
+
+.header-menu-list {
+  display: none;
+}
+
+.header-btn {
+  display: none;
+}
+
+/* ------ */
+
+/* --- TABLET --- */
+
 @media screen and (min-width: 768px) {
-  .header-menu-list {
-    display: none;
+
+  .header-wrap {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-wrap {
+    display: flex;
+    gap: 14px;
+  }
+
+  .header-menu-wrap {
+    width: 504px;
+  }
+
+  .header-navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header-btn {
+    border-radius: 12px;
+    background-color: #FFF;
+    border-color: transparent;
+    height: 54px;
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-family: DM Sans;
+    font-weight: 700;
+    line-height: 1.55;
+    text-transform: uppercase;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 186px;
   }
 }
+
+/* ------ */
+
+/* ---DEKSTOP--- */
 
 @media screen and (min-width: 1280px) {
 
@@ -16,15 +81,16 @@
     display: flex;
     padding-top: 20px;
     gap: 20px;
+    align-items: center;
   }
 
   .header-menu-wrap {
-    max-width: 822px;
-    margin-right: auto;
+    width: 822px;
   }
 
   .header-navigation {
     display: flex;
+    align-items: center;
     padding: 22px 50px;
   }
 
@@ -38,16 +104,29 @@
     gap: 28px;
   }
 
-  .header-menu-item {}
+  .header-menu-item {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+
+  .header-menu-open-btn {
+    display: none;
+  }
 
   .header-btn {
     min-width: 238px;
     display: inline-flex;
-    padding: 16px 84px;
     justify-content: center;
     align-items: center;
     border-radius: 12px;
+    border-color: transparent;
+    height: 60px;
     background-color: #FFF;
+    font-family: DM Sans;
     color: #121212;
     font-size: 18px;
     font-style: normal;
@@ -56,3 +135,5 @@
     text-transform: uppercase;
   }
 }
+
+/* ------ */
