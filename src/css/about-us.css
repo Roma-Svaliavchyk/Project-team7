@@ -53,12 +53,13 @@
 }
 
 .about-us-text-one {
-    
+    max-width: 335px;
 }
 
 .about-us-text-two {
-    
+    max-width: 335px;
 }
+
 /*About us Tablet */
 @media screen and (min-width: 768px) {
     .about-us {
@@ -93,6 +94,14 @@
         width: 704px;
         height: 340px;
      }
+     .about-us-text-one {
+        max-width: 280px;
+    }
+    
+    .about-us-text-two {
+        max-width: 280px;
+    }
+    
  }
 /*About us Laptop */
 
@@ -132,11 +141,11 @@
         letter-spacing: -0.02em;
     }
     .about-us-text-one {
-        max-width: 314px;
+        max-width: 268px;
     }
     
     .about-us-text-two {
-        max-width: 276px;
+        max-width: 264px;
     }
     
   }
