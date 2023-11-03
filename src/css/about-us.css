@@ -2,11 +2,15 @@
         max-width: 375px;
         padding-left: 20px;
         padding-right: 20px;
-        margin-bottom: 80px;
+        padding-bottom: 80px;
+        margin: 0 auto;
       }
+.about-us-div-all {
+    padding: 20px, 0;
+}
 
 .about-us-div {
-    
+
 }
 .about-us-image {
     width: 335px;
@@ -32,6 +36,8 @@
     align-items: flex-start;
     margin-bottom: 40px;
     border-radius: 1000px;
+    overflow: hidden;
+
 }
 .about-us-image {
 
@@ -99,13 +105,14 @@
 
     .about-us-div {
         display: flex;
+        gap:50px;
         flex-direction: row;
         justify-content: center;
         align-items: flex-start;
       }
     
     .about-us-div-image {
-        margin-right: 50px;
+        
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -123,6 +130,13 @@
         font-size: 16px;
         line-height: 1.25;
         letter-spacing: -0.02em;
+    }
+    .about-us-text-one {
+        max-width: 314px;
+    }
+    
+    .about-us-text-two {
+        max-width: 276px;
     }
     
   }
