@@ -1,12 +1,29 @@
+.container {
+  max-width: 375px;
+  padding: 0 20px;
+}
 .our-courses {
   background-color: #121212;
-  padding-top: 80px;
+  padding-bottom: 80px;
+}
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
 }
 .courses-container {
-  max-width: 335px;
+  /* max-width: 375px;
+  padding: 0 20px;
+  margin: 0 auto; */
 }
 .courses-title-box {
-  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 40px;
+  align-items: baseline;
+  justify-content: center;
 }
 .courses-title {
   color: #fff;
@@ -33,21 +50,68 @@
 }
 .courses-list {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 20px;
-  margin: 0;
-  padding: 0;
 }
-
-.courses-item-box {
-  width: 335px;
+.courses-item {
+  max-width: 335px;
   height: 398px;
+  padding: 28px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
 }
-.courses-link-icon {
+.courses-item-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.courses-number {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+}
+.courses-card-num {
+  align-self: start;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+}
+.courses-icon-box {
+  width: 32px;
+  height: 32px;
+}
+.courses-link {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #1d1d1d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
   fill: color #777777;
+}
+.courses-link:hover {
+  fill: #ffffff;
+  background-color: #bea69e;
+}
+.courses-link-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.courses-card-main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: baseline;
 }
 .courses-subtitle {
   color: #fff;
@@ -62,6 +126,7 @@
   line-height: 1.28;
   letter-spacing: -0.02em;
 }
+
 /* ===================768px============================ */
 @media screen and (min-width: 768px) {
   .courses-title {
