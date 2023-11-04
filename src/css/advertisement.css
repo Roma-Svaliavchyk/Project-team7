@@ -6,25 +6,25 @@
     margin: 0 auto;
     max-width: 100%;
     overflow: hidden;
+    padding: 20px;
     stroke-width: 1px;
     border: 1px solid rgba(255, 255, 255, 0.20);
-    
-    /*stroke: rgba(255, 255, 255, 0.20);*/
 }
 
 .anim-box {
-    gap: 200px;
+    gap: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    min-width: 100%;
     border-radius: 10px;
     border-color: bisque;
     white-space: nowrap;
-    animation-duration: 4s;
+    animation-duration: 5s;
     animation-name: moveLeft;
-    animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
 
 .advertisement-p {
@@ -40,43 +40,67 @@
     color: #FFF;
 }
 
-/* amimatiomn */
+/* animation */
 @keyframes moveLeft {
     0% {
         transform: translate(50%, 0%);
     }
 
     100% {
-        transform: translate(-52.5%, 0%);
+        transform: translate(-50%, 0%);
     }
 }
 
 /*advertisement Tablet */
 @media screen and (min-width: 768px) {
     .anim-box {
-        gap: 200px;
+        gap: 24px;
     }
 
     .advertisement-container {
-        
+        padding: 24px;
     }
+
+
     .advertisement-p {
         font-size: 40px;
         line-height: 1.25;
     }
+
+    /* animation */
+@keyframes moveLeft {
+    0% {
+        transform: translate(50%, 0%);
+    }
+
+    100% {
+        transform: translate(-50%, 0%);
+    }
+}
  }
 
 /*advertisement Laptop */
 @media screen and (min-width: 1280px) {
     .anim-box {
-        gap: 200px;
     }
 
     .advertisement-container {
         
     } 
+   
     .advertisement-p {
         font-size: 59px;
         line-height: 1.08;
     }
+
+    /* animation */
+@keyframes moveLeft {
+    0% {
+        transform: translate(50%, 0%);
+    }
+
+    100% {
+        transform: translate(-50%, 0%);
+    }
+}
 }
