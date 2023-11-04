@@ -1,3 +1,151 @@
-.about-us{
-    background-color: pink;
+.about-us {
+        max-width: 375px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 80px;
+        margin: 0 auto;
+      }
+.about-us-div-all {
+    padding: 20px, 0;
 }
+
+.about-us-div {
+
+}
+.about-us-image {
+    width: 335px;
+    height: 209px;
+ }
+.about-us-title {
+    margin-bottom: 40px;
+
+    color: #BEA69E;
+    font-size: 28px;
+    line-height: 1.14;
+    letter-spacing: -0.04em;
+}
+
+.about-us-title-span {
+    color: #FFF;
+}
+
+.about-us-div-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    border-radius: 1000px;
+    overflow: hidden;
+
+}
+.about-us-image {
+
+}
+.about-us-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #FFF;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+}
+
+.about-us-text-one {
+    max-width: 335px;
+}
+
+.about-us-text-two {
+    max-width: 335px;
+}
+
+/*About us Tablet */
+@media screen and (min-width: 768px) {
+    .about-us {
+      max-width: 768px;
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+    .about-us-title {
+        margin-bottom: 50px;
+        font-size: 48px;
+        line-height: 1.12;
+        letter-spacing: -0.04em;
+    }
+    .about-us-text {
+        gap: 20px;
+        display: flex;
+        flex-direction: row;
+        color: #FFF;
+        font-size: 16px;
+        line-height: 1.28;
+        letter-spacing: -0.02em;
+    }
+
+    .about-us-div-image {
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+     }
+     .about-us-image {
+        width: 704px;
+        height: 340px;
+     }
+     .about-us-text-one {
+        max-width: 280px;
+    }
+    
+    .about-us-text-two {
+        max-width: 280px;
+    }
+    
+ }
+/*About us Laptop */
+
+ @media screen and (min-width: 1280px) {
+    .about-us {
+      max-width: 1110px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .about-us-div {
+        display: flex;
+        gap:50px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+      }
+    
+    .about-us-div-image {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+     }
+     .about-us-image {
+        width: 488px;
+        height: 240px;
+     }
+    .about-us-text {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        color: #FFF;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -0.02em;
+    }
+    .about-us-text-one {
+        max-width: 268px;
+    }
+    
+    .about-us-text-two {
+        max-width: 264px;
+    }
+    
+  }

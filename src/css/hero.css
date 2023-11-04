@@ -1,3 +1,182 @@
-.hero{
-    background-color: brown;
+.hero {
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 80px;
+    margin: 0 auto;
 }
+
+.hero-container {
+    background-color: #1D1D1D;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+    height: 777px;
+    padding: 20px, 0;
+}
+
+.hero-left-container {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.hero-title-origin {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -1.6px;
+    margin-bottom: 20px;
+    width: 295px;
+}
+
+.hero-title-different {
+    color: #BEA69E;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.hero-info-text {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.28px;
+    width: 295px;
+    margin-bottom: 40px;
+}
+
+.hero-other-block {
+    display: inline-flex;
+    height: 84px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin-bottom: 31px;
+}
+
+.hero-allstudents-block {
+    display: flex;
+    flex-direction: column;
+
+}
+.hero-students-block {
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.hero-students-img {
+    margin-right: -11px; /* Shift images to the left by 12 pixels */
+}
+
+.hero-students-img:last-child {
+    margin-right: 0; /* Remove margin for the last image */
+}
+
+.studentimg1 {
+    z-index: 1;
+}
+.studentimg2 {
+    z-index: 0;
+}
+.studentimg3 {
+
+}
+
+.hero-students-descriprion-block {
+    display: flex;
+    width: 109px;
+    align-items: center;
+    align-content: center;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+
+.hero-students-description {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.64px;
+    width: 82px;
+}
+.hero-arrow-link {
+    width: 18px;
+    height: 8.66px;
+}
+
+.hero-arrow-icon {
+    fill: #fff;
+}
+
+.hero-star-block {
+    height: 50px;
+    width: 50px;
+}
+
+.hero-star-link {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-color: #BEA69E;
+}
+
+.hero-star-icon {
+}
+
+.hero-revievs-block {
+}
+
+.hero-revievs {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.56px;
+    width: 57px;
+    margin-bottom: 4px;
+}
+
+.hero-number-revievs {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.64px;
+    width: 57px;
+}
+
+.hero-photographer {
+    width: 259px;
+    height: 314px;
+}
+
+/* @media screen and (min-width: 768px) {
+    .hero-container {
+        width: 704px;
+        height: 900px;
+    }
+
+    .hero-photographer {
+        margin: 0 auto;
+    }
+    
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-container {
+        flex-direction: row;
+        width: 1240px;
+        height: 600px;
+    }
+
+    .hero-photographer {
+        margin-top: 80px;
+        margin-right: 50px; 
+    }
+    
+} */
