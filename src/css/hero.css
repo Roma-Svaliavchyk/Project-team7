@@ -1,5 +1,6 @@
 .hero {
     max-width: 375px;
+    padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 80px;
@@ -13,14 +14,13 @@
     flex-direction: column;
     width: 335px;
     height: 777px;
-    padding: 20px, 0;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 31px;
 }
 
 .hero-left-container {
-    padding-top: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-
 }
 
 .hero-title-origin {
@@ -112,9 +112,13 @@
     fill: #fff;
 }
 
+.hero-allrevievs-block{
+}
+
 .hero-star-block {
     height: 50px;
     width: 50px;
+    justify-content: center;
 }
 
 .hero-star-link {
@@ -123,6 +127,7 @@
     height: 100%;
     border-radius: 100%;
     background-color: #BEA69E;
+
 }
 
 .hero-star-icon {
@@ -153,12 +158,26 @@
 .hero-photographer {
     width: 259px;
     height: 314px;
+    margin-right: 18px;
+    margin-left: 18px;
 }
 
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
+    .hero {
+        max-width: 768px;
+        padding-top: 40px;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 100px;
+    }
+
     .hero-container {
         width: 704px;
         height: 900px;
+        padding-top: 64px;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 31px;
     }
 
     .hero-photographer {
@@ -168,6 +187,14 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .hero {
+        max-width: 1280px;
+        padding-top: 80px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 150px;
+    }
+
     .hero-container {
         flex-direction: row;
         width: 1240px;
@@ -179,4 +206,4 @@
         margin-right: 50px; 
     }
     
-} */
+}
