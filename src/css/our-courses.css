@@ -1,7 +1,4 @@
-.container {
-  max-width: 375px;
-  padding: 0 20px;
-}
+
 .our-courses {
   background-color: #121212;
   padding-bottom: 80px;
@@ -16,6 +13,7 @@ ol {
   /* max-width: 375px;
   padding: 0 20px;
   margin: 0 auto; */
+  
 }
 .courses-title-box {
   display: flex;
@@ -129,6 +127,7 @@ ol {
 
 /* ===================768px============================ */
 @media screen and (min-width: 768px) {
+  
   .courses-title {
     font-size: 48px;
     line-height: 1.12;
@@ -144,8 +143,11 @@ ol {
   .courses-text-item {
     font-size: 16px;
   }
+
+  
 }
 
 /* ========================1280px====================== */
 @media screen and (min-width: 1280px) {
+  
 }
