@@ -1,18 +1,54 @@
-<header class="header">
-  <div class="container header-wrap">
-    <div class="header-menu-wrap">
-      <nav class="header-navigation">
-        <a class="header-logo" href="./index.html">Focus.Frame</a>
-        <ul class="header-menu-list">
-          <li class="header-menu-item"><a href="#">About us</a></li>
-          <li class="header-menu-item"><a href="#">Our courses</a></li>
-          <li class="header-menu-item"><a href="#">Our mentors</a></li>
-          <li class="header-menu-item"><a href="#">Reviews</a></li>
-          <li class="header-menu-item"><a href="#">contacts</a></li>
+<header id="header">
+  <div class="container header_wrap" >
+    <div class="header_menu_wrap">
+      <nav class="header_navigation">
+        <a class="header_link" href="./index.html">
+          <svg class="header_logo" width="123px" height="16px">
+            <use href="./img/icons.svg#icon-logo"></use>
+          </svg>
+        </a>
+        <ul class="header_menu_list">
+          <li class="header_menu_item"><a href="#">About us</a></li>
+          <li class="header_menu_item"><a href="#">Our courses</a></li>
+          <li class="header_menu_item"><a href="#">Our mentors</a></li>
+          <li class="header_menu_item"><a href="#">Reviews</a></li>
+          <li class="header_menu_item"><a href="#">contacts</a></li>
         </ul>
-        <button type="button" class="header-menu-open-btn">0</button>
+        <div class="header_mob_wrap">
+          <button type="button" class="header_mob_btn">
+            <svg class="header_mob_camera" width="16px" height="16px">
+              <use href="./img/icons.svg#icon-bi_camera-fill"></use>
+            </svg>
+          </button>
+          <button type="button" class="header_menu_btn js-open-menu">
+            <svg class="header_mob_menu">
+              <use href="./img/icons.svg#icon-mob-menu"></use>
+            </svg>
+          </button>
+        </div>
       </nav>
     </div>
-    <button type="button" class="header-btn">Sign up</button>
+    <button type="button" class="header_btn">Sign up</button>
+  </div>
+  <div class="mob_menu js-menu-container">
+
+    <div class="mob-menu-wrap ">
+      <div>
+        <button type="button" class="header_close_menu_btn js-close-menu">
+          <svg class="header_close_mob_menu">
+            <use href="./img/icons.svg#icon-x-close"></use>
+          </svg>
+        </button>
+        <ul class="header_mob_menu_list">
+          <li class="header_mob_menu_item"><a href="#">About us</a></li>
+          <li class="header_mob_menu_item"><a href="#">Our courses</a></li>
+          <li class="header_mob_menu_item"><a href="#">Our mentors</a></li>
+          <li class="header_mob_menu_item"><a href="#">Reviews</a></li>
+          <li class="header_mob_menu_item"><a href="#">contacts</a></li>
+        </ul>
+      </div>
+      <img srcset="./images/mob-camera-in-menu-1x.jpg 1x, ./images/mob-camera-in-menu-2x.jpg 2x"
+        src="./images/mob-camera-in-menu-1x.jpg" class="mob-camera-img" alt="camera">
+    </div>
   </div>
 </header>
