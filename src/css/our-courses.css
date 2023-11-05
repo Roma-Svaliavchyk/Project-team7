@@ -124,6 +124,7 @@ ol {
 @media screen and (min-width: 768px) {
   .our-courses {
     max-width: 768px;
+    margin: 0 auto;
   }
   .courses-title-box {
     flex-direction: row;
