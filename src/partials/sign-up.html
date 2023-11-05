@@ -1,4 +1,4 @@
-<section class="sign-up">
+<section class="sign-up" id="sign-up">
     <div class="container sing-up-container">
         <div class="sing-up-form-contact">
             <h2 class="sign-up-titl">Sign <span class="sign-up-titl-span">Up</span></h2>
@@ -9,9 +9,11 @@
             <div>
                 <form class="sing-up-form" name="sing_up_form" autocomplete="off">
 
-                    <input class="sing-up-form-input" type="text" name="user-name" placeholder="Enter your name">
-                    <input class="sing-up-form-input" type="email" name="user-email" placeholder="Enter your email">
-                    <textarea class="sing-up-form-input" name="user-comment" cols="30" rows="10"
+                    <input class="sing-up-form-input" type="text" name="user-name" placeholder="Enter your name"
+                        pattern="[A-Za-z]{15}">
+                    <input class="sing-up-form-input" type="email" name="user-email" placeholder="Enter your email"
+                        pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$">
+                    <textarea class="sing-up-form-input sing-up-form-input-text" name="user-comment" cols="30" rows="10"
                         placeholder="Message"></textarea>
 
 
@@ -27,11 +29,13 @@
             </div>
         </div>
         <div class="sign-up-img">
-            <ul>
-                <li><img srcset="/img/sign-up/isabella-mendes-unsplash.png 1x, /img/sign-up/isabella-mendes-unsplash@2x.png 2x"
+            <ul class="sign-up-img-list">
+                <li class="sign-up-img-li-isabella"><img class="sign-up-img-isabella"
+                        srcset="/img/sign-up/isabella-mendes-unsplash.png 1x, /img/sign-up/isabella-mendes-unsplash@2x.png 2x"
                         src="/img/sign-up/isabella-mendes-unsplash.png" alt="isabella mendes unsplash" width="150">
                 </li>
-                <li><img srcset="/img/sign-up/video-entry-product.png 1x, /img/sign-up/video-entry-product@2x.png 2x"
+                <li class="sign-up-img-li-video"><img class="sign-up-img-video"
+                        srcset="/img/sign-up/video-entry-product.png 1x, /img/sign-up/video-entry-product@2x.png 2x"
                         src="/img/sign-up/video-entry-product.png" alt="video entry product" width="240"></li>
             </ul>
         </div>
