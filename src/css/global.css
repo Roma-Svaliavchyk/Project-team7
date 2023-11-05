@@ -1,14 +1,18 @@
 .container {
     margin: 0 auto;
+    max-width: 375px;
+    min-width: 320px;
+      padding-left: 20px;
+      padding-right: 20px;
   }
   
-  @media screen and (min-width: 375px) {
+  /* @media screen and (min-width: 375px) {
     .container {
       max-width: 375px;
       padding-left: 20px;
       padding-right: 20px;
     }
-  }
+  } */
   
   @media screen and (min-width: 768px) {
     .container {
@@ -23,6 +27,8 @@
       max-width: 1110px;
       padding-left: 15px;
       padding-right: 15px;
+
+      
     }
   }
   
@@ -34,7 +40,6 @@
 
   body{
     background-color: #121212;
+    min-width: 375px;
   }
-  
-  
   
