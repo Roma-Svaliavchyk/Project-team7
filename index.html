@@ -17,7 +17,7 @@
 
   
   <script type="module" crossorigin src="/Project-team7/commonHelpers.js"></script>
-  <link rel="stylesheet" href="/Project-team7/assets/index-75a9abb8.css">
+  <link rel="stylesheet" href="/Project-team7/assets/index-6ca0f2fd.css">
 </head>
 
 <body>
@@ -28,7 +28,7 @@
       <nav class="header_navigation">
         <a class="header_link" href="./index.html">
           <svg class="header_logo" width="123px" height="16px">
-            <use href="/Project-team7/assets/icons-f0886d97.svg#icon-logo"></use>
+            <use href="/Project-team7/assets/icons-e2a5c269.svg#icon-logo"></use>
           </svg>
         </a>
         <ul class="header_menu_list">
@@ -41,12 +41,12 @@
         <div class="header_mob_wrap">
           <button type="button" class="header_mob_btn">
             <svg class="header_mob_camera" width="16px" height="16px">
-              <use href="/Project-team7/assets/icons-f0886d97.svg#icon-bi_camera-fill"></use>
+              <use href="/Project-team7/assets/icons-e2a5c269.svg#icon-bi_camera-fill"></use>
             </svg>
           </button>
           <button type="button" class="header_menu_btn js-open-menu">
             <svg class="header_mob_menu">
-              <use href="/Project-team7/assets/icons-f0886d97.svg#icon-mob-menu"></use>
+              <use href="/Project-team7/assets/icons-e2a5c269.svg#icon-mob-menu"></use>
             </svg>
           </button>
         </div>
@@ -60,7 +60,7 @@
       <div>
         <button type="button" class="header_close_menu_btn js-close-menu">
           <svg class="header_close_mob_menu">
-            <use href="/Project-team7/assets/icons-f0886d97.svg#icon-x-close"></use>
+            <use href="/Project-team7/assets/icons-e2a5c269.svg#icon-x-close"></use>
           </svg>
         </button>
         <ul class="header_mob_menu_list">
@@ -80,7 +80,9 @@
 
   <!-- main -->
   <main>
-    <section class="hero" id="hero">
+    
+<section class="hero" id="hero">
+
   <div class="container hero-container">
     <div class="hero-left-container">
       <h1 class="hero-title-origin">
@@ -95,9 +97,33 @@
       <div class="hero-other-block">
         <div class="hero-allstudents-block">
           <div class="hero-students-block">
-            <img src="/Project-team7/assets/FirstGirl-a1e7c6a7.png" alt="" class="hero-students-img studentimg1" />
-            <img src="/Project-team7/assets/SecondBoy-5daa49c6.png" alt="" class="hero-students-img studentimg2" />
-            <img src="/Project-team7/assets/ThirdGirl-c9ecde01.png" alt="" class="hero-students-img studentimg3" />
+            <picture>
+              <source
+              srcset="/Project-team7/assets/FirstGirlMobile-43488cf3.png 1x, /Project-team7/assets/FirstGirlMobile2x-8d94d6cc.png 2x"
+              media="(min-width: 0)">
+              <source
+              srcset="/Project-team7/assets/FirstGirlDesk-12c06127.png 1x, /Project-team7/assets/FirstGirlDesk-12c06127.png 2x"
+              media="(min-width: 767px)">
+              <img src="/Project-team7/assets/FirstGirlMobile-43488cf3.png" alt="" class="hero-students-img studentimg1">
+            </picture>
+            <picture>
+              <source
+              srcset="data:image/png;base64,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 1x, /Project-team7/assets/SecondBoyMobile2x-2cb1fd3a.png 2x"
+              media="(min-width: 0)">
+              <source
+              srcset="/Project-team7/assets/SecondBoyDesk-5795b158.png 1x, /Project-team7/assets/SecondBoyDesk-5795b158.png 2x"
+              media="(min-width: 767px)">
+              <img src="data:image/png;base64,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" alt="" class="hero-students-img studentimg2">
+            </picture>
+            <picture>
+              <source
+              srcset="/img/hero/ThirdGirlMobile.png 1x, /img/hero/ThirdGirlMobile2x.png 2x"
+              media="(min-width: 0)">
+              <source
+              srcset="/img/hero/ThirdGirlDesk.png 1x, /img/hero/ThirdGirlDesk.png 2x"
+              media="(min-width: 767px)">
+              <img src="/img/hero/ThirdGirlMobile.png" alt="" class="hero-students-img studentimg3">
+            </picture>
           </div>
           <div class="hero-students-descriprion-block">
             <p class="hero-students-description">Our happy students</p>
@@ -107,8 +133,10 @@
               target="_blank"
               rel="no-referrer noopener"
             >
+
               <svg class="hero-arrow-icon">
-                <use href="/Project-team7/assets/icons-f0886d97.svg#iconsrc/img/symbol-defs%20(1).svg-arrow-stroke"></use>
+                <use href="/Project-team7/assets/icons-e2a5c269.svg#iconsrc/img/symbol-defs%20(1).svg-arrow-stroke"></use>
+
               </svg>
             </a>
           </div>
@@ -122,7 +150,7 @@
               rel="no-referrer noopener"
             >
               <svg class="hero-star-icon" width="24" height="24">
-                <use href="/Project-team7/assets/icons-f0886d97.svg#icon-star-empty"></use>
+                <use href="/Project-team7/assets/icons-e2a5c269.svg#icon-star-dark"></use>
               </svg>
             </a>
           </div>
@@ -133,10 +161,19 @@
         </div>
       </div>
     </div>
-    <img 
-      src="/Project-team7/assets/PhotographerMobile-7e334e61.png" alt="" class="hero-photographer" />
+    <picture>
+      <source
+      srcset="/Project-team7/assets/PhotographerMobile-7e334e61.png 1x, /Project-team7/assets/PhotographerMobile-7e334e61.png 2x"
+      media="(min-width: 0)">
+      <source
+      srcset="/Project-team7/assets/PhotographerMobile-7e334e61.png 1x, /Project-team7/assets/PhotographerMobile-7e334e61.png 2x"
+      media="(min-width: 767px)">
+      <source
+      srcset="/Project-team7/assets/PhotographerMobile-7e334e61.png 1x, /Project-team7/assets/PhotographerMobile-7e334e61.png 2x"
+      media="(min-width: 1280px)">
+      <img src="/Project-team7/assets/PhotographerMobile-7e334e61.png" class="hero-photographer" alt="Photographer">
+    </picture>
   <div>
-
 </section>
 
     <section class="advertisement" id="advertisement">
@@ -199,7 +236,7 @@
             <div class="courses-icon-box">
               <a class="courses-link" href="#sign-up">
                 <svg class="courses-link-icon" width="20" height="20">
-                  <use href="/Project-team7/assets/icons-f0886d97.svg#icon-arrow-up-right"></use>
+                  <use href="/Project-team7/assets/icons-e2a5c269.svg#icon-arrow-up-right"></use>
                 </svg>
               </a>
             </div>
@@ -220,7 +257,7 @@
             <div class="courses-icon-box">
               <a class="courses-link" href="#sign-up">
                 <svg class="courses-link-icon" width="20" height="20">
-                  <use href="/Project-team7/assets/icons-f0886d97.svg#icon-arrow-up-right"></use>
+                  <use href="/Project-team7/assets/icons-e2a5c269.svg#icon-arrow-up-right"></use>
                 </svg>
               </a>
             </div>
@@ -242,7 +279,7 @@
             <div class="courses-icon-box">
               <a class="courses-link" href="#sign-up">
                 <svg class="courses-link-icon" width="20" height="20">
-                  <use href="/Project-team7/assets/icons-f0886d97.svg#icon-arrow-up-right"></use>
+                  <use href="/Project-team7/assets/icons-e2a5c269.svg#icon-arrow-up-right"></use>
                 </svg>
               </a>
             </div>
@@ -382,27 +419,27 @@
           <ul class="reviews-items-rating">
             <li class="reviews-li-stars">
               <svg class="reviews-star-icon-active" width="18" height="18">
-                <use href="/Project-team7/assets/icons-f0886d97.svg#icon-star-empty"></use>
+                <use href="/Project-team7/assets/icons-e2a5c269.svg#icon-star-empty"></use>
               </svg>
             </li>
             <li class="reviews-li-stars">
               <svg class="reviews-star-icon-active" width="18" height="18">
-                <use href="/Project-team7/assets/icons-f0886d97.svg#icon-star-empty"></use>
+                <use href="/Project-team7/assets/icons-e2a5c269.svg#icon-star-empty"></use>
               </svg>
             </li>
             <li class="reviews-li-stars">
               <svg class="reviews-star-icon-active" width="18" height="18">
-                <use href="/Project-team7/assets/icons-f0886d97.svg#icon-star-empty"></use>
+                <use href="/Project-team7/assets/icons-e2a5c269.svg#icon-star-empty"></use>
               </svg>
             </li>
             <li class="reviews-li-stars">
               <svg class="reviews-star-icon-active" width="18" height="18">
-                <use href="/Project-team7/assets/icons-f0886d97.svg#icon-star-empty"></use>
+                <use href="/Project-team7/assets/icons-e2a5c269.svg#icon-star-empty"></use>
               </svg>
             </li>
             <li class="reviews-li-stars">
               <svg class="reviews-star-notactive" width="18" height="18">
-                <use href="/Project-team7/assets/icons-f0886d97.svg#icon-star-empty"></use>
+                <use href="/Project-team7/assets/icons-e2a5c269.svg#icon-star-empty"></use>
               </svg>
             </li>
           </ul>
@@ -432,27 +469,27 @@
           <ul class="reviews-items-rating">
             <li class="reviews-li-stars">
               <svg class="reviews-star-icon-active" width="18" height="18">
-                <use href="/Project-team7/assets/icons-f0886d97.svg#icon-star-empty"></use>
+                <use href="/Project-team7/assets/icons-e2a5c269.svg#icon-star-empty"></use>
               </svg>
             </li>
             <li class="reviews-li-stars">
               <svg class="reviews-star-icon-active" width="18" height="18">
-                <use href="/Project-team7/assets/icons-f0886d97.svg#icon-star-empty"></use>
+                <use href="/Project-team7/assets/icons-e2a5c269.svg#icon-star-empty"></use>
               </svg>
             </li>
             <li class="reviews-li-stars">
               <svg class="reviews-star-icon-active" width="18" height="18">
-                <use href="/Project-team7/assets/icons-f0886d97.svg#icon-star-empty"></use>
+                <use href="/Project-team7/assets/icons-e2a5c269.svg#icon-star-empty"></use>
               </svg>
             </li>
             <li class="reviews-li-stars">
               <svg class="reviews-star-icon-active" width="18" height="18">
-                <use href="/Project-team7/assets/icons-f0886d97.svg#icon-star-empty"></use>
+                <use href="/Project-team7/assets/icons-e2a5c269.svg#icon-star-empty"></use>
               </svg>
             </li>
             <li class="reviews-li-stars">
               <svg class="reviews-star-notactive" width="18" height="18">
-                <use href="/Project-team7/assets/icons-f0886d97.svg#icon-star-empty"></use>
+                <use href="/Project-team7/assets/icons-e2a5c269.svg#icon-star-empty"></use>
               </svg>
             </li>
           </ul>
