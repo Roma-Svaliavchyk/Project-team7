@@ -199,16 +199,21 @@
 }
 
 
-@media screen and (min-width: 1080px) {
+
+
+@media screen and (min-width: 1280px) {
     .hero {
         padding-top: 160px;
         padding-bottom: 150px;
+    }
+
 
     .hero-title-origin {
         font-size: 60px;
         line-height: 64px;
         letter-spacing: -2.4px;
         width: 517px;
+
     }
 
     .hero-info-text {
@@ -220,4 +225,6 @@
         margin: 0 auto;
 
     }
+
   }
+
