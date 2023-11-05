@@ -1,4 +1,6 @@
+
 <section class="hero" id="hero">
+
   <div class="container hero-container">
     <div class="hero-left-container">
       <h1 class="hero-title-origin">
@@ -13,9 +15,33 @@
       <div class="hero-other-block">
         <div class="hero-allstudents-block">
           <div class="hero-students-block">
-            <img src="/img/hero/FirstGirl.png" alt="" class="hero-students-img studentimg1" />
-            <img src="/img/hero/SecondBoy.png" alt="" class="hero-students-img studentimg2" />
-            <img src="/img/hero/ThirdGirl.png" alt="" class="hero-students-img studentimg3" />
+            <picture>
+              <source
+              srcset="/img/hero/FirstGirlMobile.png 1x, /img/hero/FirstGirlMobile2x.png 2x"
+              media="(min-width: 0)">
+              <source
+              srcset="/img/hero/FirstGirlDesk.png 1x, /img/hero/FirstGirlDesk.png 2x"
+              media="(min-width: 767px)">
+              <img src="/img/hero/FirstGirlMobile.png" alt="" class="hero-students-img studentimg1">
+            </picture>
+            <picture>
+              <source
+              srcset="/img/hero/SecondBoyMobile.png 1x, /img/hero/SecondBoyMobile2x.png 2x"
+              media="(min-width: 0)">
+              <source
+              srcset="/img/hero/SecondBoyDesk.png 1x, /img/hero/SecondBoyDesk.png 2x"
+              media="(min-width: 767px)">
+              <img src="/img/hero/SecondBoyMobile.png" alt="" class="hero-students-img studentimg2">
+            </picture>
+            <picture>
+              <source
+              srcset="/img/hero/ThirdGirlMobile.png 1x, /img/hero/ThirdGirlMobile2x.png 2x"
+              media="(min-width: 0)">
+              <source
+              srcset="/img/hero/ThirdGirlDesk.png 1x, /img/hero/ThirdGirlDesk.png 2x"
+              media="(min-width: 767px)">
+              <img src="/img/hero/ThirdGirlMobile.png" alt="" class="hero-students-img studentimg3">
+            </picture>
           </div>
           <div class="hero-students-descriprion-block">
             <p class="hero-students-description">Our happy students</p>
@@ -25,8 +51,10 @@
               target="_blank"
               rel="no-referrer noopener"
             >
+
               <svg class="hero-arrow-icon">
                 <use href="/img/icons.svg#iconsrc/img/symbol-defs (1).svg-arrow-stroke"></use>
+
               </svg>
             </a>
           </div>
@@ -40,7 +68,7 @@
               rel="no-referrer noopener"
             >
               <svg class="hero-star-icon" width="24" height="24">
-                <use href="/img/icons.svg#icon-star-empty"></use>
+                <use href="/img/icons.svg#icon-star-dark"></use>
               </svg>
             </a>
           </div>
@@ -51,8 +79,17 @@
         </div>
       </div>
     </div>
-    <img 
-      src="/img/hero/PhotographerMobile.png" alt="" class="hero-photographer" />
+    <picture>
+      <source
+      srcset="/img/hero/PhotographerMobile.png 1x, /img/hero/PhotographerMobile.png 2x"
+      media="(min-width: 0)">
+      <source
+      srcset="/img/hero/PhotographerMobile.png 1x, /img/hero/PhotographerMobile.png 2x"
+      media="(min-width: 767px)">
+      <source
+      srcset="/img/hero/PhotographerMobile.png 1x, /img/hero/PhotographerMobile.png 2x"
+      media="(min-width: 1280px)">
+      <img src="/img/hero/PhotographerMobile.png" class="hero-photographer" alt="Photographer">
+    </picture>
   <div>
-
 </section>

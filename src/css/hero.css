@@ -1,9 +1,9 @@
+
+
 .hero {
-    max-width: 375px;
-    min-width: 320px;
-    padding-top: 20px;
-    padding-bottom: 80px;
     margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 80px;
 }
 
 .hero-container {
@@ -16,7 +16,7 @@
     padding-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 31px;
+
 }
 
 .hero-left-container {
@@ -28,8 +28,8 @@
     font-weight: 500;
     line-height: 44px;
     letter-spacing: -1.6px;
-    margin-bottom: 20px;
     width: 295px;
+    margin-bottom: 20px;
 }
 
 .hero-title-different {
@@ -44,13 +44,13 @@
     font-weight: 400;
     line-height: 18px; /* 128.571% */
     letter-spacing: -0.28px;
+    /*other*/
     width: 295px;
     margin-bottom: 40px;
 }
 
 .hero-other-block {
     display: inline-flex;
-    height: 84px;
     justify-content: center;
     align-items: flex-start;
     gap: 40px;
@@ -60,38 +60,35 @@
 .hero-allstudents-block {
     display: flex;
     flex-direction: column;
-
+    gap: 12;
 }
+
 .hero-students-block {
     display: flex;
-    margin-bottom: 4px;
 }
 
 .hero-students-img {
-    margin-right: -11px; /* Shift images to the left by 12 pixels */
+    margin-right: -12px;
 }
 
 .hero-students-img:last-child {
-    margin-right: 0; /* Remove margin for the last image */
+    margin-right: 0;
 }
 
 .studentimg1 {
     z-index: 1;
 }
+
 .studentimg2 {
     z-index: 0;
 }
-.studentimg3 {
 
+.studentimg3 {
 }
 
 .hero-students-descriprion-block {
     display: flex;
-    width: 109px;
-    align-items: center;
-    align-content: center;
-    gap: 4px;
-    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .hero-students-description {
@@ -101,27 +98,45 @@
     line-height: 18px;
     letter-spacing: -0.56px;
     width: 67px;
+
 }
+
 .hero-arrow-link {
+    display: flex;
+    align-items: center; 
 
 }
 
 .hero-arrow-icon {
     fill: #fff;
-    width: 18px;
-    height: 8.66px;
-}
 
-.hero-allrevievs-block{
+    width: 25px;
+}
+.hero-allrevievs-block {
     display: flex;
-    align-items: center;
-    align-content: center;
+    gap: 12px;
+
 }
 
 .hero-star-block {
-    height: 50px;
+    background-color: #BEA69E;
     width: 50px;
-    margin-right: 12px;
+
+    height: 50px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero-star-link {
+    fill: #BEA69E;
+    stroke: #1D1D1D;
+    width: 24px;
+    height: 24px;
+
+    
 }
 
 .hero-star-link {
@@ -133,6 +148,7 @@
     border-radius: 100%;
     background-color: #BEA69E;
 
+
 }
 
 .hero-star-icon {
@@ -141,6 +157,7 @@
 }
 
 .hero-revievs-block {
+    margin: auto 0;
 }
 
 .hero-revievs {
@@ -152,7 +169,6 @@
     width: 57px;
     margin-bottom: 4px;
 }
-
 .hero-number-revievs {
     color: #FFF;
     font-size: 16px;
@@ -161,17 +177,13 @@
     letter-spacing: -0.64px;
     width: 57px;
 }
-
 .hero-photographer {
-    width: 259px;
-    height: 314px;
-    margin-right: 18px;
-    margin-left: 18px;
+    padding: 18px 0;
+
 }
 
 @media screen and (min-width: 768px) {
     .hero {
-        max-width: 768px;
         padding-top: 40px;
         padding-bottom: 100px;
     }
@@ -182,8 +194,15 @@
         padding-top: 64px;
         padding-left: 32px;
         padding-right: 155px;
-        padding-bottom: 31px;
+
     }
+}
+
+
+@media screen and (min-width: 1080px) {
+    .hero {
+        padding-top: 160px;
+        padding-bottom: 150px;
 
     .hero-title-origin {
         font-size: 60px;
@@ -199,42 +218,6 @@
 
     .hero-photographer {
         margin: 0 auto;
-    }
-    
-}
 
-@media screen and (min-width: 1280px) {
-    .hero {
-        max-width: 1280px;
-        padding-top: 80px;
-        padding-left: 100px;
-        padding-right: 100px;
-        padding-bottom: 150px;
-        background-image: url("/img/hero/Graphic.png");
     }
-
-    .hero-container {
-        flex-direction: row;
-        width: 1240px;
-        height: 600px;
-    }
-
-    .hero-title-origin {
-        font-size: 64px;
-        line-height: 68px;
-        letter-spacing: -2.56px;
-        width: 563px;
-    }
-
-    .hero-info-text {
-        width: 518px;
-        margin-bottom: 136px;
-    }
-    
-
-    .hero-photographer {
-        margin-top: 80px;
-        margin-right: 50px; 
-    }
-    
-}
+  }
