@@ -2,13 +2,7 @@
   background-color: #121212;
   padding-bottom: 80px;
 }
-ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-  list-style: none;
-}
-.courses-container {
+ourses-container {
 }
 .courses-title-box {
   display: flex;
