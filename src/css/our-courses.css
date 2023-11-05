@@ -108,6 +108,7 @@ ourses-container {
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
+  max-width: 279px;
 }
 .courses-text-item {
   color: rgba(255, 255, 255, 0.5);
@@ -154,6 +155,9 @@ ourses-container {
 
   .courses-text-item {
     font-size: 16px;
+  }
+  .courses-subtitle {
+    max-width: 265px;
   }
 }
 
