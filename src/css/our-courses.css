@@ -88,16 +88,19 @@ ol {
   justify-content: center;
   padding: 6px;
   fill: color #777777;
-}
-.courses-link:hover {
-  fill: #ffffff;
-  background-color: #bea69e;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .courses-link-icon {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.courses-link:hover {
+  fill: #ffffff;
+  background-color: #bea69e;
+}
+
 .courses-card-main {
   display: flex;
   flex-direction: column;
