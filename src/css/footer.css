@@ -2,7 +2,13 @@
   max-width: 375px;
   padding-left: 20px;
   padding-right: 20px;
+  background-image: url(/img/footer/Graphic.png);
+  /* border-top: 1px  rgba(255, 255, 255, 0.20); */
+border-top: 1px solid rgba(255, 255, 255, 0.20);
 }
+
+
+
 .footer_logo {
   fill: #fff;
 }
@@ -56,6 +62,7 @@ padding-bottom: 20px;
 padding-top: 20px;
 padding-right: 129px;
 }
+
 .subscride-button{
   width: 60px;
 height: 60px;
@@ -63,6 +70,7 @@ flex-shrink: 0;
 border-radius: 12px;
 background: #1D1D1D;
 color: #FFF;
+border: 0px;
 }
 .footer-subscribe{
   display: flex;
@@ -115,13 +123,14 @@ margin-right: 72px;
     align-items: flex-start;
     display: flex;
     flex-wrap: wrap;
-    
-    
+    background-image: url(/img/footer/Graphic768px.png);
+    border-top: 1px solid rgba(255, 255, 255, 0.20);
 }
 
  
   .links_and_anchors{
-   margin-right: 77px;
+   margin-right: 59px;
+   gap: 25px;
   }
   .subscribe-input{
     width: 178px;
@@ -131,6 +140,10 @@ flex-shrink: 0;
 border-radius: 12px;
     background: #FFF;
     color: #121212;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 18px;
+    padding-right: 29px;
 
   }
   .subscribe-label{
@@ -140,7 +153,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: 20px;
-opacity: 0.7;
+
 
   }
   .navigation{
@@ -149,16 +162,11 @@ opacity: 0.7;
   align-content: center;
   flex-direction: column;
   gap: 25px;
-  margin-right: 58px;
+  margin-right: 15px;
 }
-.subscribe-input{
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 18px;
-  padding-right: 40px;
-}
+
 .pryvacy_policy{
-  margin-right: 399px;
+  margin-right: 452px;
  
 }
 .footer_navigation{
@@ -186,15 +194,16 @@ margin-right: 77px;
 
 @media screen and (min-width: 1280px){
   .footer {
-    max-width: 1280px;
+    max-width: 1110px;
     align-items: flex-start;
     display: flex;
     flex-wrap: wrap;
-    
-    
+    background-image: url(/img/footer/Graphic1144px.png);
+    border-top: 1px solid rgba(255, 255, 255, 0.20);
+    padding: 0 15px;
 }
 .navigation{
-  margin-right: 360px;
+  margin-right: 239px;
 }
 .links_and_anchors{
   gap: 100px;
@@ -218,7 +227,13 @@ background: #FFF;
   gap: 16px;
 }
 .pryvacy_policy{
-  margin-right: 935px;
+  margin-right: 792px;
+}
+.focus_frame{
+width: 134px;
+}
+.policy{
+  width: 171px;
 }
 
 }
