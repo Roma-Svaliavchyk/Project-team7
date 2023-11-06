@@ -312,6 +312,10 @@
         padding-right: 50px;
     }
 
+    .hero-left-container {
+        margin-bottom: 50px;
+    }
+
     .hero-title-origin {
         font-size: 64px;
         line-height: 68px;
@@ -329,18 +333,14 @@
         margin-bottom: 0;
     }
 
-
-
-
     .hero-photographer {
-        margin-left: 130px;
+        margin-left: 20px;
     }
     
     .hero-photographer-img {
         width: 397px;
         height: 520px;
         object-fit: contain;
-    
     }
 }
 
