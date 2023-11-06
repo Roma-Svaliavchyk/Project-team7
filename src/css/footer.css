@@ -1,10 +1,14 @@
-.footer {
+footer{
+  background-image: url(/img/footer/Graphic.png);
+  border-top: 1px solid rgba(255, 255, 255, 0.20);
+}
+.footer_container {
   max-width: 375px;
   padding-left: 20px;
   padding-right: 20px;
-  background-image: url(/img/footer/Graphic.png);
-  /* border-top: 1px  rgba(255, 255, 255, 0.20); */
-border-top: 1px solid rgba(255, 255, 255, 0.20);
+ 
+ 
+
 }
 
 
@@ -118,13 +122,17 @@ margin-right: 72px;
 
 
 @media screen and (min-width: 768px){
-  .footer {
+  footer{
+    background-image: url(/img/footer/Graphic768px.png);
+    border-top: 1px solid rgba(255, 255, 255, 0.20);
+  }
+  .footer_container {
     max-width: 768px;
     align-items: flex-start;
     display: flex;
     flex-wrap: wrap;
-    background-image: url(/img/footer/Graphic768px.png);
-    border-top: 1px solid rgba(255, 255, 255, 0.20);
+   
+   
 }
 
  
@@ -193,13 +201,16 @@ margin-right: 77px;
 
 
 @media screen and (min-width: 1280px){
-  .footer {
+  footer{
+    background-image: url(/img/footer/Graphic1144px.png);
+    border-top: 1px solid rgba(255, 255, 255, 0.20);
+  }
+  .footer_container {
     max-width: 1110px;
     align-items: flex-start;
     display: flex;
     flex-wrap: wrap;
-    background-image: url(/img/footer/Graphic1144px.png);
-    border-top: 1px solid rgba(255, 255, 255, 0.20);
+    
     padding: 0 15px;
 }
 .navigation{
