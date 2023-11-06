@@ -113,7 +113,6 @@
 
 .hero-arrow-icon {
     fill: #fff;
-    width: 25px;
 }
 .hero-allrevievs-block {
     display: flex;
@@ -223,21 +222,19 @@
     .hero-students-block {
         margin-bottom: 0;
     }
-    
-    /* .images-of-students-difres{
-        margin-right: -12px;
+
+    .images-of-students-difres{
+        margin-right: -14px;
+        width: 54px;
     }
     
     .images-of-students-difres:last-child {
         margin-right: 0;
     }
-     */
 
-     .hero-students-descriprion-block {
+    .hero-students-descriprion-block {
         display: flex;
         flex-direction: column;
-        height: 56px;
-        
     }
     
     .hero-students-description {
@@ -245,11 +242,61 @@
         line-height: 20px;
         letter-spacing: -0.64px;
         width: 82px;
+        margin-bottom: 8px;
+    }
+
+    /*Need fix*/
+
+    .hero-arrow-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+    }
+
+    .hero-arrow-icon {
+    }
+
+    /*Need fix*/
+
+    .hero-star-block {
+        width: 50px;
+        height: 50px;
     }
     
+    .hero-revievs-block{
+        margin: 0;
+    }
+
+    .hero-revievs {
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.64px;
+        width: 57px;
+        margin-bottom: 8px;
+    }
+
+    .hero-number-revievs {
+        line-height: 20px;
+        letter-spacing: -0.64px;
+    }
+
+    .hero-photographer {
+        margin-left: 124px;
+        margin-right: 0;
+    }
+    
+    .hero-photographer-img {
+        width: 393px;
+        height: 434px;
+        object-fit: contain;
+    
+    }
 }
 
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
     .hero {
         padding-top: 160px;
         padding-bottom: 150px;
@@ -281,5 +328,5 @@
         margin-bottom: 136px;
     }
 
-}
+} */
 
