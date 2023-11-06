@@ -1,5 +1,5 @@
-.advertisement {
-    padding-top: 0 0 80px 0;
+.advertisement-section {
+    padding: 80px 0; 
 }
 
 .advertisement-container {
@@ -57,6 +57,10 @@
         gap: 24px;
     }
 
+    .advertisement-section {
+        padding: 100px 0; 
+    }
+
     .advertisement-container {
         padding: 24px;
     }
@@ -83,7 +87,9 @@
 @media screen and (min-width: 1280px) {
     .anim-box {
     }
-
+    .advertisement-section {
+        padding: 150px 0; 
+    }
     .advertisement-container {
         
     } 
