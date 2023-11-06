@@ -17,7 +17,7 @@
 
   
   <script type="module" crossorigin src="/Project-team7/commonHelpers.js"></script>
-  <link rel="stylesheet" href="/Project-team7/assets/index-d35563ab.css">
+  <link rel="stylesheet" href="/Project-team7/assets/index-8f8789fa.css">
 </head>
 
 <body>
@@ -32,17 +32,19 @@
           </svg>
         </a>
         <ul class="header_menu_list">
-          <li class="header_menu_item"><a href="#">About us</a></li>
-          <li class="header_menu_item"><a href="#">Our courses</a></li>
-          <li class="header_menu_item"><a href="#">Our mentors</a></li>
-          <li class="header_menu_item"><a href="#">Reviews</a></li>
-          <li class="header_menu_item"><a href="#">contacts</a></li>
+          <li class="header_menu_item"><a href="#about-us">About us</a></li>
+          <li class="header_menu_item"><a href="#our-courses">Our courses</a></li>
+          <li class="header_menu_item"><a href="#our-mentors">Our mentors</a></li>
+          <li class="header_menu_item"><a href="#reviews">Reviews</a></li>
+          <li class="header_menu_item"><a href="#footer">Contacts</a></li>
         </ul>
         <div class="header_mob_wrap">
           <button type="button" class="header_mob_btn">
-            <svg class="header_mob_camera" width="16px" height="16px">
-              <use href="/Project-team7/assets/icons-e2a5c269.svg#icon-bi_camera-fill"></use>
-            </svg>
+            <a class="header_mob_link" href="#sign-up">
+              <svg class="header_mob_camera" width="16px" height="16px">
+                <use href="/Project-team7/assets/icons-e2a5c269.svg#icon-bi_camera-fill"></use>
+              </svg>
+            </a>
           </button>
           <button type="button" class="header_menu_btn js-open-menu">
             <svg class="header_mob_menu">
@@ -52,27 +54,32 @@
         </div>
       </nav>
     </div>
-    <button type="button" class="header_btn">Sign up</button>
+    <button type="button" class="header_btn"><a href="#sign-up">Sign up</a></button>
   </div>
   <div class="mob_menu js-menu-container">
-
-    <div class="mob-menu-wrap ">
-      <div>
+    <div class="mob_menu_wrap">
+      <div class="header_menu_nav">
         <button type="button" class="header_close_menu_btn js-close-menu">
           <svg class="header_close_mob_menu">
             <use href="/Project-team7/assets/icons-e2a5c269.svg#icon-x-close"></use>
           </svg>
         </button>
         <ul class="header_mob_menu_list">
-          <li class="header_mob_menu_item"><a href="#">About us</a></li>
-          <li class="header_mob_menu_item"><a href="#">Our courses</a></li>
-          <li class="header_mob_menu_item"><a href="#">Our mentors</a></li>
-          <li class="header_mob_menu_item"><a href="#">Reviews</a></li>
-          <li class="header_mob_menu_item"><a href="#">contacts</a></li>
+          <li class="header_mob_menu_item js-close-menu"><a href="#about-us">About us</a></li>
+          <li class="header_mob_menu_item js-close-menu"><a href="#our-courses">Our courses</a></li>
+          <li class="header_mob_menu_item js-close-menu"><a href="#our-mentors">Our mentors</a></li>
+          <li class="header_mob_menu_item js-close-menu"><a href="#reviews">Reviews</a></li>
+          <li class="header_mob_menu_item js-close-menu"><a href="#footer">contacts</a></li>
         </ul>
       </div>
-      <img srcset="./images/mob-camera-in-menu-1x.jpg 1x, ./images/mob-camera-in-menu-2x.jpg 2x"
-        src="./images/mob-camera-in-menu-1x.jpg" class="mob-camera-img" alt="camera">
+      <picture>
+        <source srcset="/Project-team7/assets/tab-camera-in-menu-1x-d7250104.jpeg 1x, /Project-team7/assets/tab-camera-in-menu-2x-2f0ffa3a.jpeg 2x"
+          media="(min-width: 768px)">
+        <source srcset="/Project-team7/assets/mob-camera-in-menu-1x-251c031a.jpeg 1x, /Project-team7/assets/mob-camera-in-menu-2x-59793a21.jpeg 2x"
+          media="(max-width: 767px)">
+        <img srcset="/Project-team7/assets/tab-camera-in-menu-1x-d7250104.jpeg 1x, /Project-team7/assets/tab-camera-in-menu-2x-2f0ffa3a.jpeg 2x"
+          src="/Project-team7/assets/tab-camera-in-menu-1x-d7250104.jpeg" alt="camera">
+      </picture>
     </div>
   </div>
 </header>
