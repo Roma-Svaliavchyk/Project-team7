@@ -296,7 +296,7 @@
     }
 }
 
-/* @media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
     .hero {
         padding-top: 160px;
         padding-bottom: 150px;
@@ -304,6 +304,7 @@
     }
 
     .hero-container {
+        flex-direction: row;
         width: 1080px;
         height: 600px;
         padding-top: 80px;
@@ -325,8 +326,21 @@
     }
 
     .hero-other-block {
-        margin-bottom: 136px;
+        margin-bottom: 0;
     }
 
-} */
+
+
+
+    .hero-photographer {
+        margin-left: 130px;
+    }
+    
+    .hero-photographer-img {
+        width: 397px;
+        height: 520px;
+        object-fit: contain;
+    
+    }
+}
 
