@@ -1,11 +1,13 @@
-.sign-up {
-}
+.sign-up {}
+
 .sing-up-container {
   padding-top: 80px;
 }
+
 .sing-up-form-contact {
   width: 335px;
 }
+
 .sign-up-titl {
   margin-bottom: 20px;
   color: #fff;
@@ -14,9 +16,11 @@
   line-height: 1.14;
   letter-spacing: -0.04em;
 }
+
 .sign-up-titl-span {
   color: #bea69e;
 }
+
 .sign-up-par {
   margin-bottom: 41px;
   margin-right: 40px;
@@ -26,8 +30,9 @@
   line-height: 1.28;
   letter-spacing: -0.02em;
 }
-.sing-up-form {
-}
+
+.sing-up-form {}
+
 .sing-up-form-input {
   width: 100%;
   padding: 14px 18px;
@@ -42,9 +47,11 @@
   line-height: 1.28;
   opacity: 0.7;
 }
+
 .sing-up-form-input-text {
   height: 120px;
 }
+
 .sign-up-botton {
   width: 100%;
   display: flex;
@@ -52,14 +59,19 @@
   margin: 40px 0 20px 0;
   justify-content: center;
   align-items: center;
-
+  border: none;
   color: var(--black, #121212);
 
   font-size: 16px;
   font-weight: 700;
   line-height: 1.25;
   text-transform: uppercase;
+
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .sign-up-botton:hover {
   color: #bea69e;
   background: #1d1d1d;
@@ -75,6 +87,7 @@
 .sign-up-priv-link {
   text-decoration-line: underline;
 }
+
 .sign-up-img {
   display: none;
 }
@@ -84,6 +97,7 @@
     display: flex;
     padding-top: 100px;
   }
+
   .sign-up-titl {
     font-size: 48px;
     line-height: 1.12;
@@ -92,15 +106,18 @@
   .sing-up-form-contact {
     width: 480px;
   }
+
   .sign-up-par {
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: -0.02em;
     margin-right: 0;
   }
+
   .sing-up-form-input {
     margin-bottom: 14px;
   }
+
   .sign-up-priv {
     font-size: 14px;
     line-height: 1.28;
@@ -114,14 +131,17 @@
     gap: 60px;
     padding-top: 150px;
   }
+
   .sign-up-img-list {
     display: flex;
     align-items: flex-end;
     gap: 20px;
   }
+
   .sign-up-img {
     display: flex;
   }
+
   .sign-up-img-li-isabella {
     width: 180px;
     height: 288px;
@@ -129,12 +149,14 @@
     background: #bea69e;
     overflow: hidden;
   }
+
   .sign-up-img-isabella {
     max-width: none;
     width: 200px;
     padding-top: 67px;
     margin-left: -35px;
   }
+
   .sign-up-img-li-video {
     width: 340px;
     height: 540px;
@@ -142,6 +164,7 @@
     border-radius: 1000px;
     background: #1d1d1d;
   }
+
   .sign-up-img-video {
     width: 100%;
     padding: 156px 50px 88px 50px;

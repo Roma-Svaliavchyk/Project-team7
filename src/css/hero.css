@@ -1,9 +1,8 @@
-
-
 .hero {
     margin: 0 auto;
     padding-top: 90px;
     padding-bottom: 80px;
+    background-image: url(/img/hero/GraphicMobile.png);
 }
 
 .hero-container {
@@ -60,19 +59,23 @@
 .hero-allstudents-block {
     display: flex;
     flex-direction: column;
-    gap: 12;
 }
 
 .hero-students-block {
     display: flex;
+    margin-bottom: 4px;
 }
 
-.hero-students-img {
+.images-of-students-difres{
+    display: flex;
     margin-right: -12px;
 }
 
-.hero-students-img:last-child {
+.images-of-students-difres:last-child {
     margin-right: 0;
+}
+
+.hero-students-img {
 }
 
 .studentimg1 {
@@ -89,6 +92,8 @@
 .hero-students-descriprion-block {
     display: flex;
     flex-direction: row;
+    height: 36px;
+    
 }
 
 .hero-students-description {
@@ -104,13 +109,10 @@
 .hero-arrow-link {
     display: flex;
     align-items: center; 
-
 }
 
 .hero-arrow-icon {
     fill: #fff;
-
-    width: 25px;
 }
 .hero-allrevievs-block {
     display: flex;
@@ -120,25 +122,15 @@
 
 .hero-star-block {
     background-color: #BEA69E;
-    width: 50px;
-
-    height: 50px;
+    width: 45px;
+    height: 45px;
     border-radius: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
 
 }
-
-.hero-star-link {
-    fill: #BEA69E;
-    stroke: #1D1D1D;
-    width: 24px;
-    height: 24px;
-
-    
-}
-
+/*--------------------------------WTF HERE--------------------*/
 .hero-star-link {
     display: flex;
     align-items: center;
@@ -155,6 +147,8 @@
     fill: #BEA69E;
     stroke: #121212;
 }
+
+/*--------------------------------WTF HERE--------------------*/
 
 .hero-revievs-block {
     margin: auto 0;
@@ -178,14 +172,22 @@
     width: 57px;
 }
 .hero-photographer {
-    padding: 18px 0;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.hero-photographer-img {
+    width: 259px;
+    height: 314px;
+    object-fit: cover;
 
 }
 
 @media screen and (min-width: 768px) {
     .hero {
-        padding-top: 40px;
+        padding-top: 120px;
         padding-bottom: 100px;
+        background-image: url(/img/hero/GraphicTeblet.png);
     }
 
     .hero-container {
@@ -194,35 +196,151 @@
         padding-top: 64px;
         padding-left: 32px;
         padding-right: 155px;
-
     }
-}
-
-
-@media screen and (min-width: 1280px) {
-    .hero {
-        padding-top: 160px;
-        padding-bottom: 150px;
-    }
-
 
     .hero-title-origin {
         font-size: 60px;
         line-height: 64px;
         letter-spacing: -2.4px;
         width: 517px;
-
     }
 
     .hero-info-text {
         width: 418px;
     }
+
+    .hero-other-block {
+        margin-bottom: 40px;
+    }
     
+    .hero-allstudents-block {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+    }
+    
+    .hero-students-block {
+        margin-bottom: 0;
+    }
+
+    .images-of-students-difres{
+        margin-right: -14px;
+        width: 54px;
+    }
+    
+    .images-of-students-difres:last-child {
+        margin-right: 0;
+    }
+
+    .hero-students-descriprion-block {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .hero-students-description {
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.64px;
+        width: 82px;
+        margin-bottom: 8px;
+    }
+
+    /*Need fix*/
+
+    .hero-arrow-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+    }
+
+    .hero-arrow-icon {
+    }
+
+    /*Need fix*/
+
+    .hero-star-block {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .hero-revievs-block{
+        margin: 0;
+    }
+
+    .hero-revievs {
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.64px;
+        width: 57px;
+        margin-bottom: 8px;
+    }
+
+    .hero-number-revievs {
+        line-height: 20px;
+        letter-spacing: -0.64px;
+    }
 
     .hero-photographer {
-        margin: 0 auto;
+        margin-left: 124px;
+        margin-right: 0;
+    }
+    
+    .hero-photographer-img {
+        width: 393px;
+        height: 434px;
+        object-fit: contain;
+    
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero {
+        padding-top: 160px;
+        padding-bottom: 150px;
+        background-image: url(/img/hero/GraphicDesk.png);
+    }
+
+    .hero-container {
+        flex-direction: row;
+        width: 1080px;
+        height: 600px;
+        padding-top: 80px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .hero-left-container {
+        margin-bottom: 50px;
+    }
+
+    .hero-title-origin {
+        font-size: 64px;
+        line-height: 68px;
+        letter-spacing: -2.56px;
+        width: 563px;
 
     }
 
-  }
+    .hero-info-text {
+        width: 418px;
+        margin-bottom: 136px;
+    }
+
+    .hero-other-block {
+        margin-bottom: 0;
+    }
+
+    .hero-photographer {
+        margin-left: 20px;
+    }
+    
+    .hero-photographer-img {
+        width: 397px;
+        height: 520px;
+        object-fit: contain;
+    }
+}
 

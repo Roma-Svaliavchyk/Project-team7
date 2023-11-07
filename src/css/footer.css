@@ -8,9 +8,6 @@ footer{
   max-width: 375px;
   padding-left: 20px;
   padding-right: 20px;
- 
- 
-
 }
 .links_and_anchors-li:last-child{
   margin-bottom: 0px;
@@ -78,10 +75,8 @@ color: #121212;
 padding-left: 18px;
 padding-bottom: 20px;
 padding-top: 20px;
-padding-right: 18px;
-}
-.subscribe-label{
-  flex-grow: 1;
+padding-right: 129px;
+border: none;  
 }
 
 .subscride-button{
