@@ -1,5 +1,5 @@
 .advertisement-section {
-    padding: 80px 0; 
+    padding-bottom: 80px; 
 }
 
 .advertisement-container {
@@ -58,7 +58,7 @@
     }
 
     .advertisement-section {
-        padding: 100px 0; 
+        padding-bottom: 100px; 
     }
 
     .advertisement-container {
@@ -88,7 +88,7 @@
     .anim-box {
     }
     .advertisement-section {
-        padding: 150px 0; 
+        padding-bottom: 150px; 
     }
     .advertisement-container {
         
