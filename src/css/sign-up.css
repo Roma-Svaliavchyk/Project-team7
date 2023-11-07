@@ -48,6 +48,7 @@
   font-size: 16px;
   line-height: 1.25;
   border: 1px solid rgba(255, 255, 255, 0.5);
+  outline: 1px solid #fff;
 }
 .sign-up-botton {
   width: 100%;
