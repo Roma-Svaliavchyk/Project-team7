@@ -1,5 +1,8 @@
 header {
-  margin-bottom: -80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .header_wrap {
@@ -91,12 +94,25 @@ header {
 .mob_menu_wrap {
   position: fixed;
   width: 218px;
-  height: 812px;
+  height: 100%;
+  min-height: 700px;
   background-color: #BEA69E;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   right: 0;
+  overflow-y: auto;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% auto;
+  background-image: url(/img/header/mob-camera-in-menu-1x.jpeg);
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .mob_menu_wrap {
+    background-image: url(/img/header/mob-camera-in-menu-2x.jpeg);
+  }
 }
 
 .header_menu_nav {
@@ -142,10 +158,6 @@ header {
 
 @media screen and (min-width: 768px) {
 
-  .header {
-    margin-bottom: -40px;
-  }
-
   .header_wrap {
     display: flex;
     align-items: center;
@@ -185,7 +197,7 @@ header {
     background-color: #1D1D1D;
   }
 
-  .header_mob_btn {
+  .header_mob_link {
     display: none;
   }
 
@@ -213,12 +225,22 @@ header {
   .mob_menu_wrap {
     position: fixed;
     width: 480px;
-    height: 1024px;
+    height: 100%;
+    min-height: 900px;
     background-color: #BEA69E;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    overflow-y: auto;
     right: 0;
+    background-image: url(/img/header/tab-camera-in-menu-1x.jpeg);
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .mob_menu_wrap {
+      background-image: url(/img/header/tab-camera-in-menu-2x.jpeg);
+    }
   }
 
   .header_menu_nav {
@@ -265,10 +287,6 @@ header {
 /* ---DEKSTOP--- */
 
 @media screen and (min-width: 1280px) {
-
-  .header {
-    margin-bottom: -20px;
-  }
 
   .header-wrap {
     display: flex;
