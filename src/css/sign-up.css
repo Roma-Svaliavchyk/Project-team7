@@ -1,11 +1,5 @@
-.sign-up {}
-
-.sing-up-container {
+.sign-up {
   padding-top: 80px;
-}
-
-.sing-up-form-contact {
-  width: 335px;
 }
 
 .sign-up-titl {
@@ -31,8 +25,6 @@
   letter-spacing: -0.02em;
 }
 
-.sing-up-form {}
-
 .sing-up-form-input {
   width: 100%;
   padding: 14px 18px;
@@ -50,16 +42,22 @@
 
 .sing-up-form-input-text {
   height: 120px;
+  margin-bottom: 40px;
 }
-
+.sing-up-form-input:focus {
+  font-size: 16px;
+  line-height: 1.25;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
 .sign-up-botton {
   width: 100%;
   display: flex;
   padding: 14px 127px;
-  margin: 40px 0 20px 0;
+  margin-bottom: 20px;
   justify-content: center;
   align-items: center;
   border: none;
+  border-radius: 12px;
   color: var(--black, #121212);
 
   font-size: 16px;
