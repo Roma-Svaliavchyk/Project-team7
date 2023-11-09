@@ -389,12 +389,12 @@
             <div>
                 <form class="sing-up-form" name="sing_up_form" autocomplete="off">
 
-                    <input class="sing-up-form-input" type="text" name="user-name" placeholder="Enter your name"
-                        pattern="[A-Za-z]{15}" required>
-                    <input class="sing-up-form-input" type="email" name="user-email" placeholder="Enter your email"
-                        pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required>
-                    <textarea class="sing-up-form-input sing-up-form-input-text" name="user-comment" cols="30" rows="10"
-                        placeholder="Message"></textarea>
+                    <input class="sing-up-form-input" id="user-subscribe-name" type="text" name="user-name"
+                        placeholder="Enter your name" pattern="[A-Za-z]{2,20}" required>
+                    <input class="sing-up-form-input" id="user-subscribe-email" type="email" name="user-email"
+                        placeholder="Enter your email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required>
+                    <textarea class="sing-up-form-input sing-up-form-input-text" id="user-comment" name="user-comment"
+                        cols="30" rows="10" placeholder="Message"></textarea>
 
 
                     <button class="sign-up-botton" type="submit">SEND</button>
