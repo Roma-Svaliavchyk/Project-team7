@@ -92,11 +92,9 @@
 }
 
 @media screen and (min-width: 768px) {
-  .sign-up {
-    padding-top: 100px;
-  }
   .sing-up-container {
     display: flex;
+    padding-top: 100px;
   }
 
   .sign-up-titl {
@@ -126,13 +124,11 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .sign-up {
-    padding-top: 150px;
-  }
   .sing-up-container {
     display: flex;
     align-items: flex-start;
     gap: 60px;
+    padding-top: 150px;
   }
 
   .sign-up-img-list {
